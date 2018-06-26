@@ -156,6 +156,30 @@ Pod::Spec.new do |s|
 
     cur.framework = 'UIKit', 'Foundation'
   end
+
+  s.subspec 'WVRPlayerUI' do |cur|
+    
+    s.prefix_header_contents = '#import "WVRPlayerUIHeader.h"'
+    
+    s.source_files = ['WVRPlayerUI/WVRPlayerUI/Classes/*.{h,m}', 'WVRPlayerUI/WVRPlayerUI/Classes/**/*.{h,m}']
+    s.resources = 'WVRPlayerUI/WVRPlayerUI/Classes/**/*.xib'
+
+    # s.vendored_frameworks = ['WVRPlayerUI/Classes/Player/WhaleyVRPlayer.framework']
+    # s.resources = ['WVRPlayerUI/Classes/Player/WVRPlayerUIBundle.bundle']
+    
+    s.requires_arc = true
+    s.frameworks = ['Foundation', 'UIKit']
+    
+    s.dependency 'Masonry'
+    s.dependency 'PortalIosLibrary/WVRAppContext'
+    s.dependency 'PortalIosLibrary/WVRImage'
+    s.dependency 'PortalIosLibrary/WVRUtil'
+    s.dependency 'YYText'
+    s.dependency 'ReactiveObjC'
+    s.dependency 'PortalIosMidware/WVRUIFrame'
+    s.dependency 'PortalIosMidwareMidware/WVRWidget'
+    s.dependency 'PortalIosLibraryMidware/WVRBI'
+  end
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
