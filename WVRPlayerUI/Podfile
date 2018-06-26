@@ -1,0 +1,23 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-lib/WVRPodSpecs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-midware/WVRPodSpecs.git'
+platform :ios, "9.0"
+
+
+target 'WVRPlayerUI' do
+
+    pod 'Masonry'
+    pod 'WVRAppContext'
+    pod 'WVRImage'
+    pod 'WVRUtil'
+    pod 'YYText'
+    pod 'ReactiveObjC'
+    pod 'WVRUIFrame'
+    pod 'WVRWidget'
+    pod 'WVRBI'
+    
+end
+
+
+

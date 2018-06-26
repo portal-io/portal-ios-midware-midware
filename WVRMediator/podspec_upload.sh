@@ -1,0 +1,1 @@
+pod repo push moretv-whaley-vr-ios-midware-wvrpodspecs WVRMediator.podspec --sources='http://git.moretv.cn/whaley-vr-ios-lib/WVRPodSpecs.git,https://github.com/CocoaPods/Specs.git' --use-libraries --allow-warnings

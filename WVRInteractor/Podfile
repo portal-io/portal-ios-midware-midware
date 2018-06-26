@@ -1,0 +1,15 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-lib/WVRPodSpecs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-midware/WVRPodSpecs.git'
+platform :ios, "9.0"
+
+
+target 'WVRInteractor' do
+    
+    pod 'WVRNet', 		'~> 0.1.5'
+    
+end
+
+
+

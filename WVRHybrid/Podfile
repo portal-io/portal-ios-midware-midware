@@ -1,0 +1,23 @@
+
+#use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-midware/WVRPodSpecs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-lib/WVRPodSpecs.git'
+
+platform :ios, "9.0"
+inhibit_all_warnings!
+
+# 如果有库因为忽略警告而编译失败，单独给他设置不忽略警告
+# pod 'ReactiveCocoa', '~> 2.1.8', :inhibit_warnings => true
+
+target 'WVRHybrid' do
+
+    pod 'WVRAppContext',                '~> 0.1.3'
+    pod 'WVRWidget',                    '~> 0.3.2'
+    pod 'WVRUtil',                      '~> 0.0.1'
+    pod 'YYModel',                      '~> 1.0'
+
+end
+
+
+

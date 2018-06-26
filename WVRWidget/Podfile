@@ -1,0 +1,22 @@
+#use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-midware/WVRPodSpecs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-lib/WVRPodSpecs.git'
+
+platform :ios, "9.0"
+inhibit_all_warnings!
+
+target 'WVRWidget' do
+    
+    pod 'MJRefresh',                    '~> 3.1'
+    pod 'WVRAppContext',				'~> 0.1.3'
+
+    pod 'WVRUIFrame',       			'~> 0.1.7'
+    pod 'Masonry',                      '~> 1.0'
+    pod 'WVRImage', 					'~> 1.1.1'
+    pod 'YYText',                       '~> 1.0'
+    
+#    pod 'WVRMediator'
+
+end
+

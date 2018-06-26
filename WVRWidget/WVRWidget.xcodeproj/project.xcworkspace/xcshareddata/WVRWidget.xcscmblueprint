@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D267AE970A7C38004BE6F842359A4AE2B6097D73",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D267AE970A7C38004BE6F842359A4AE2B6097D73" : 9223372036854775807,
+    "FD897148FF638C04B45E523F944ED37D1AA1DE3A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "05E82F48-2CF3-4034-BE94-48BDEB62D08F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D267AE970A7C38004BE6F842359A4AE2B6097D73" : "WVRWidget\/",
+    "FD897148FF638C04B45E523F944ED37D1AA1DE3A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WVRWidget",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WVRWidget\/WVRWidget.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.moretv.cn\/whaley-vr-ios-midware\/WVRWidget.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D267AE970A7C38004BE6F842359A4AE2B6097D73"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.moretv.cn\/whaley-vr-ios-midware\/main.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD897148FF638C04B45E523F944ED37D1AA1DE3A"
+    }
+  ]
+}

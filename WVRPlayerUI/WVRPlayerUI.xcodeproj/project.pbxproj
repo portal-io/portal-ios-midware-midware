@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32CC26601F70B3C0003FDBC4 /* WVRPlayerUIEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CC265F1F70B3C0003FDBC4 /* WVRPlayerUIEvent.m */; };
+		32CC26631F70B430003FDBC4 /* WVRPlayerUIEventCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CC26621F70B430003FDBC4 /* WVRPlayerUIEventCallBack.m */; };
+		32F099BC1F60DD7A00264EAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099BB1F60DD7A00264EAC /* main.m */; };
+		32F099BF1F60DD7A00264EAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099BE1F60DD7A00264EAC /* AppDelegate.m */; };
+		32F099C21F60DD7A00264EAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099C11F60DD7A00264EAC /* ViewController.m */; };
+		32F099C51F60DD7A00264EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F099C31F60DD7A00264EAC /* Main.storyboard */; };
+		32F099C71F60DD7A00264EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F099C61F60DD7A00264EAC /* Assets.xcassets */; };
+		32F099CA1F60DD7A00264EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F099C81F60DD7A00264EAC /* LaunchScreen.storyboard */; };
+		32F099D51F60DD7A00264EAC /* WVRPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099D41F60DD7A00264EAC /* WVRPlayerUITests.m */; };
+		32F099E01F60DD7A00264EAC /* WVRPlayerUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099DF1F60DD7A00264EAC /* WVRPlayerUIUITests.m */; };
+		32F09A131F60DDB800264EAC /* WVRBlurImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099F21F60DDB800264EAC /* WVRBlurImageView.m */; };
+		32F09A141F60DDB800264EAC /* WVRCameraChangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099F41F60DDB800264EAC /* WVRCameraChangeButton.m */; };
+		32F09A151F60DDB800264EAC /* WVRCameraStandTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099F61F60DDB800264EAC /* WVRCameraStandTipView.m */; };
+		32F09A171F60DDB800264EAC /* WVRLiveAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099FA1F60DDB800264EAC /* WVRLiveAlertView.m */; };
+		32F09A181F60DDB800264EAC /* WVRLiveInfoAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099FC1F60DDB800264EAC /* WVRLiveInfoAlertView.m */; };
+		32F09A191F60DDB800264EAC /* WVRLiveInfoAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F099FD1F60DDB800264EAC /* WVRLiveInfoAlertView.xib */; };
+		32F09A1A1F60DDB800264EAC /* WVRLiveRemindChargeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F099FF1F60DDB800264EAC /* WVRLiveRemindChargeView.m */; };
+		32F09A1B1F60DDB800264EAC /* WVRLiveBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F09A011F60DDB800264EAC /* WVRLiveBottomToolView.m */; };
+		32F09A1C1F60DDB800264EAC /* WVRLiveTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F09A031F60DDB800264EAC /* WVRLiveTitleView.m */; };
+		32F09A1D1F60DDB800264EAC /* WVRLotteryBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F09A051F60DDB800264EAC /* WVRLotteryBoxView.m */; };
+		32F09A1E1F60DDB800264EAC /* WVRPlayerLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F09A071F60DDB800264EAC /* WVRPlayerLoadingView.m */; };
+		32F09A1F1F60DDB800264EAC /* WVRPlayerStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F09A091F60DDB800264EAC /* WVRPlayerStartView.m */; };
+		32F09A201F60DDB800264EAC /* WVRPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F09A0C1F60DDB800264EAC /* WVRPlayerView.m */; };
+		32F09A211F60DDB800264EAC /* WVRPlayerViewLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F09A0E1F60DDB800264EAC /* WVRPlayerViewLive.m */; };
+		32F09A221F60DDB800264EAC /* WVRSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F09A121F60DDB800264EAC /* WVRSlider.m */; };
+		90B7A98E910FA8D2B4AD05CF /* libPods-WVRPlayerUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 064355D57A98C09949F92951 /* libPods-WVRPlayerUI.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32F099D11F60DD7A00264EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F099AF1F60DD7A00264EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F099B61F60DD7A00264EAC;
+			remoteInfo = WVRPlayerUI;
+		};
+		32F099DC1F60DD7A00264EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F099AF1F60DD7A00264EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F099B61F60DD7A00264EAC;
+			remoteInfo = WVRPlayerUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064355D57A98C09949F92951 /* libPods-WVRPlayerUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WVRPlayerUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CC265D1F70B270003FDBC4 /* WVRPlayerUIProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerUIProtocol.h; sourceTree = "<group>"; };
+		32CC265E1F70B3C0003FDBC4 /* WVRPlayerUIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerUIEvent.h; sourceTree = "<group>"; };
+		32CC265F1F70B3C0003FDBC4 /* WVRPlayerUIEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRPlayerUIEvent.m; sourceTree = "<group>"; };
+		32CC26611F70B430003FDBC4 /* WVRPlayerUIEventCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerUIEventCallBack.h; sourceTree = "<group>"; };
+		32CC26621F70B430003FDBC4 /* WVRPlayerUIEventCallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRPlayerUIEventCallBack.m; sourceTree = "<group>"; };
+		32F099B71F60DD7A00264EAC /* WVRPlayerUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WVRPlayerUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F099BB1F60DD7A00264EAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32F099BD1F60DD7A00264EAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32F099BE1F60DD7A00264EAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32F099C01F60DD7A00264EAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32F099C11F60DD7A00264EAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32F099C41F60DD7A00264EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32F099C61F60DD7A00264EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32F099C91F60DD7A00264EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32F099CB1F60DD7A00264EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F099D01F60DD7A00264EAC /* WVRPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WVRPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F099D41F60DD7A00264EAC /* WVRPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVRPlayerUITests.m; sourceTree = "<group>"; };
+		32F099D61F60DD7A00264EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F099DB1F60DD7A00264EAC /* WVRPlayerUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WVRPlayerUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F099DF1F60DD7A00264EAC /* WVRPlayerUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVRPlayerUIUITests.m; sourceTree = "<group>"; };
+		32F099E11F60DD7A00264EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F099F11F60DDB800264EAC /* WVRBlurImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRBlurImageView.h; sourceTree = "<group>"; };
+		32F099F21F60DDB800264EAC /* WVRBlurImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRBlurImageView.m; sourceTree = "<group>"; };
+		32F099F31F60DDB800264EAC /* WVRCameraChangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRCameraChangeButton.h; sourceTree = "<group>"; };
+		32F099F41F60DDB800264EAC /* WVRCameraChangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRCameraChangeButton.m; sourceTree = "<group>"; };
+		32F099F51F60DDB800264EAC /* WVRCameraStandTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRCameraStandTipView.h; sourceTree = "<group>"; };
+		32F099F61F60DDB800264EAC /* WVRCameraStandTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRCameraStandTipView.m; sourceTree = "<group>"; };
+		32F099F91F60DDB800264EAC /* WVRLiveAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRLiveAlertView.h; sourceTree = "<group>"; };
+		32F099FA1F60DDB800264EAC /* WVRLiveAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRLiveAlertView.m; sourceTree = "<group>"; };
+		32F099FB1F60DDB800264EAC /* WVRLiveInfoAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRLiveInfoAlertView.h; sourceTree = "<group>"; };
+		32F099FC1F60DDB800264EAC /* WVRLiveInfoAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRLiveInfoAlertView.m; sourceTree = "<group>"; };
+		32F099FD1F60DDB800264EAC /* WVRLiveInfoAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WVRLiveInfoAlertView.xib; sourceTree = "<group>"; };
+		32F099FE1F60DDB800264EAC /* WVRLiveRemindChargeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRLiveRemindChargeView.h; sourceTree = "<group>"; };
+		32F099FF1F60DDB800264EAC /* WVRLiveRemindChargeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRLiveRemindChargeView.m; sourceTree = "<group>"; };
+		32F09A001F60DDB800264EAC /* WVRLiveBottomToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRLiveBottomToolView.h; sourceTree = "<group>"; };
+		32F09A011F60DDB800264EAC /* WVRLiveBottomToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRLiveBottomToolView.m; sourceTree = "<group>"; };
+		32F09A021F60DDB800264EAC /* WVRLiveTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRLiveTitleView.h; sourceTree = "<group>"; };
+		32F09A031F60DDB800264EAC /* WVRLiveTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRLiveTitleView.m; sourceTree = "<group>"; };
+		32F09A041F60DDB800264EAC /* WVRLotteryBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRLotteryBoxView.h; sourceTree = "<group>"; };
+		32F09A051F60DDB800264EAC /* WVRLotteryBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRLotteryBoxView.m; sourceTree = "<group>"; };
+		32F09A061F60DDB800264EAC /* WVRPlayerLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerLoadingView.h; sourceTree = "<group>"; };
+		32F09A071F60DDB800264EAC /* WVRPlayerLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRPlayerLoadingView.m; sourceTree = "<group>"; };
+		32F09A081F60DDB800264EAC /* WVRPlayerStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerStartView.h; sourceTree = "<group>"; };
+		32F09A091F60DDB800264EAC /* WVRPlayerStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRPlayerStartView.m; sourceTree = "<group>"; };
+		32F09A0A1F60DDB800264EAC /* WVRPlayerUIFrameMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerUIFrameMacro.h; sourceTree = "<group>"; };
+		32F09A0B1F60DDB800264EAC /* WVRPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerView.h; sourceTree = "<group>"; };
+		32F09A0C1F60DDB800264EAC /* WVRPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRPlayerView.m; sourceTree = "<group>"; };
+		32F09A0D1F60DDB800264EAC /* WVRPlayerViewLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerViewLive.h; sourceTree = "<group>"; };
+		32F09A0E1F60DDB800264EAC /* WVRPlayerViewLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRPlayerViewLive.m; sourceTree = "<group>"; };
+		32F09A0F1F60DDB800264EAC /* WVRPlayerViewLiveProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerViewLiveProtocol.h; sourceTree = "<group>"; };
+		32F09A101F60DDB800264EAC /* WVRPlayerViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerViewProtocol.h; sourceTree = "<group>"; };
+		32F09A111F60DDB800264EAC /* WVRSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRSlider.h; sourceTree = "<group>"; };
+		32F09A121F60DDB800264EAC /* WVRSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRSlider.m; sourceTree = "<group>"; };
+		32F09A231F60EF0C00264EAC /* WVRPlayerUIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRPlayerUIHeader.h; sourceTree = "<group>"; };
+		59096A422D521854CFACAEDB /* Pods-WVRPlayerUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WVRPlayerUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-WVRPlayerUI/Pods-WVRPlayerUI.release.xcconfig"; sourceTree = "<group>"; };
+		9B725E519CC09CFD1FA755B1 /* Pods-WVRPlayerUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WVRPlayerUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WVRPlayerUI/Pods-WVRPlayerUI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F099B41F60DD7A00264EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B7A98E910FA8D2B4AD05CF /* libPods-WVRPlayerUI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F099CD1F60DD7A00264EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F099D81F60DD7A00264EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A56BD7017873274545A2E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B725E519CC09CFD1FA755B1 /* Pods-WVRPlayerUI.debug.xcconfig */,
+				59096A422D521854CFACAEDB /* Pods-WVRPlayerUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32F099AE1F60DD7A00264EAC = {
+			isa = PBXGroup;
+			children = (
+				32F099B91F60DD7A00264EAC /* WVRPlayerUI */,
+				32F099D31F60DD7A00264EAC /* WVRPlayerUITests */,
+				32F099DE1F60DD7A00264EAC /* WVRPlayerUIUITests */,
+				32F099B81F60DD7A00264EAC /* Products */,
+				08A56BD7017873274545A2E9 /* Pods */,
+				D0716337AB20FE62726A971B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32F099B81F60DD7A00264EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F099B71F60DD7A00264EAC /* WVRPlayerUI.app */,
+				32F099D01F60DD7A00264EAC /* WVRPlayerUITests.xctest */,
+				32F099DB1F60DD7A00264EAC /* WVRPlayerUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32F099B91F60DD7A00264EAC /* WVRPlayerUI */ = {
+			isa = PBXGroup;
+			children = (
+				32F099ED1F60DDB800264EAC /* Classes */,
+				32F099BD1F60DD7A00264EAC /* AppDelegate.h */,
+				32F099BE1F60DD7A00264EAC /* AppDelegate.m */,
+				32F099C01F60DD7A00264EAC /* ViewController.h */,
+				32F099C11F60DD7A00264EAC /* ViewController.m */,
+				32F099C31F60DD7A00264EAC /* Main.storyboard */,
+				32F099C61F60DD7A00264EAC /* Assets.xcassets */,
+				32F099C81F60DD7A00264EAC /* LaunchScreen.storyboard */,
+				32F099CB1F60DD7A00264EAC /* Info.plist */,
+				32F099BA1F60DD7A00264EAC /* Supporting Files */,
+			);
+			path = WVRPlayerUI;
+			sourceTree = "<group>";
+		};
+		32F099BA1F60DD7A00264EAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F099BB1F60DD7A00264EAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F099D31F60DD7A00264EAC /* WVRPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32F099D41F60DD7A00264EAC /* WVRPlayerUITests.m */,
+				32F099D61F60DD7A00264EAC /* Info.plist */,
+			);
+			path = WVRPlayerUITests;
+			sourceTree = "<group>";
+		};
+		32F099DE1F60DD7A00264EAC /* WVRPlayerUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32F099DF1F60DD7A00264EAC /* WVRPlayerUIUITests.m */,
+				32F099E11F60DD7A00264EAC /* Info.plist */,
+			);
+			path = WVRPlayerUIUITests;
+			sourceTree = "<group>";
+		};
+		32F099ED1F60DDB800264EAC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32F099EE1F60DDB800264EAC /* Manager */,
+				32F099EF1F60DDB800264EAC /* Model */,
+				32F099F01F60DDB800264EAC /* View */,
+				32F09A231F60EF0C00264EAC /* WVRPlayerUIHeader.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32F099EE1F60DDB800264EAC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				32CC265D1F70B270003FDBC4 /* WVRPlayerUIProtocol.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		32F099EF1F60DDB800264EAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32CC265E1F70B3C0003FDBC4 /* WVRPlayerUIEvent.h */,
+				32CC265F1F70B3C0003FDBC4 /* WVRPlayerUIEvent.m */,
+				32CC26611F70B430003FDBC4 /* WVRPlayerUIEventCallBack.h */,
+				32CC26621F70B430003FDBC4 /* WVRPlayerUIEventCallBack.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32F099F01F60DDB800264EAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32F099F11F60DDB800264EAC /* WVRBlurImageView.h */,
+				32F099F21F60DDB800264EAC /* WVRBlurImageView.m */,
+				32F099F31F60DDB800264EAC /* WVRCameraChangeButton.h */,
+				32F099F41F60DDB800264EAC /* WVRCameraChangeButton.m */,
+				32F099F51F60DDB800264EAC /* WVRCameraStandTipView.h */,
+				32F099F61F60DDB800264EAC /* WVRCameraStandTipView.m */,
+				32F099F91F60DDB800264EAC /* WVRLiveAlertView.h */,
+				32F099FA1F60DDB800264EAC /* WVRLiveAlertView.m */,
+				32F099FB1F60DDB800264EAC /* WVRLiveInfoAlertView.h */,
+				32F099FC1F60DDB800264EAC /* WVRLiveInfoAlertView.m */,
+				32F099FD1F60DDB800264EAC /* WVRLiveInfoAlertView.xib */,
+				32F099FE1F60DDB800264EAC /* WVRLiveRemindChargeView.h */,
+				32F099FF1F60DDB800264EAC /* WVRLiveRemindChargeView.m */,
+				32F09A001F60DDB800264EAC /* WVRLiveBottomToolView.h */,
+				32F09A011F60DDB800264EAC /* WVRLiveBottomToolView.m */,
+				32F09A021F60DDB800264EAC /* WVRLiveTitleView.h */,
+				32F09A031F60DDB800264EAC /* WVRLiveTitleView.m */,
+				32F09A041F60DDB800264EAC /* WVRLotteryBoxView.h */,
+				32F09A051F60DDB800264EAC /* WVRLotteryBoxView.m */,
+				32F09A061F60DDB800264EAC /* WVRPlayerLoadingView.h */,
+				32F09A071F60DDB800264EAC /* WVRPlayerLoadingView.m */,
+				32F09A081F60DDB800264EAC /* WVRPlayerStartView.h */,
+				32F09A091F60DDB800264EAC /* WVRPlayerStartView.m */,
+				32F09A0A1F60DDB800264EAC /* WVRPlayerUIFrameMacro.h */,
+				32F09A0B1F60DDB800264EAC /* WVRPlayerView.h */,
+				32F09A0C1F60DDB800264EAC /* WVRPlayerView.m */,
+				32F09A0D1F60DDB800264EAC /* WVRPlayerViewLive.h */,
+				32F09A0E1F60DDB800264EAC /* WVRPlayerViewLive.m */,
+				32F09A0F1F60DDB800264EAC /* WVRPlayerViewLiveProtocol.h */,
+				32F09A101F60DDB800264EAC /* WVRPlayerViewProtocol.h */,
+				32F09A111F60DDB800264EAC /* WVRSlider.h */,
+				32F09A121F60DDB800264EAC /* WVRSlider.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0716337AB20FE62726A971B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				064355D57A98C09949F92951 /* libPods-WVRPlayerUI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F099B61F60DD7A00264EAC /* WVRPlayerUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F099E41F60DD7A00264EAC /* Build configuration list for PBXNativeTarget "WVRPlayerUI" */;
+			buildPhases = (
+				EE633666B2C7A695AE884FA4 /* [CP] Check Pods Manifest.lock */,
+				32F099B31F60DD7A00264EAC /* Sources */,
+				32F099B41F60DD7A00264EAC /* Frameworks */,
+				32F099B51F60DD7A00264EAC /* Resources */,
+				9C9D8A49C4B77E8C2C51BC03 /* [CP] Embed Pods Frameworks */,
+				5C4C90F2AAAAF5A884EC595B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WVRPlayerUI;
+			productName = WVRPlayerUI;
+			productReference = 32F099B71F60DD7A00264EAC /* WVRPlayerUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32F099CF1F60DD7A00264EAC /* WVRPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F099E71F60DD7A00264EAC /* Build configuration list for PBXNativeTarget "WVRPlayerUITests" */;
+			buildPhases = (
+				32F099CC1F60DD7A00264EAC /* Sources */,
+				32F099CD1F60DD7A00264EAC /* Frameworks */,
+				32F099CE1F60DD7A00264EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F099D21F60DD7A00264EAC /* PBXTargetDependency */,
+			);
+			name = WVRPlayerUITests;
+			productName = WVRPlayerUITests;
+			productReference = 32F099D01F60DD7A00264EAC /* WVRPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32F099DA1F60DD7A00264EAC /* WVRPlayerUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F099EA1F60DD7A00264EAC /* Build configuration list for PBXNativeTarget "WVRPlayerUIUITests" */;
+			buildPhases = (
+				32F099D71F60DD7A00264EAC /* Sources */,
+				32F099D81F60DD7A00264EAC /* Frameworks */,
+				32F099D91F60DD7A00264EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F099DD1F60DD7A00264EAC /* PBXTargetDependency */,
+			);
+			name = WVRPlayerUIUITests;
+			productName = WVRPlayerUIUITests;
+			productReference = 32F099DB1F60DD7A00264EAC /* WVRPlayerUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32F099AF1F60DD7A00264EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = snailvr;
+				TargetAttributes = {
+					32F099B61F60DD7A00264EAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+					};
+					32F099CF1F60DD7A00264EAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32F099B61F60DD7A00264EAC;
+					};
+					32F099DA1F60DD7A00264EAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32F099B61F60DD7A00264EAC;
+					};
+				};
+			};
+			buildConfigurationList = 32F099B21F60DD7A00264EAC /* Build configuration list for PBXProject "WVRPlayerUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32F099AE1F60DD7A00264EAC;
+			productRefGroup = 32F099B81F60DD7A00264EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F099B61F60DD7A00264EAC /* WVRPlayerUI */,
+				32F099CF1F60DD7A00264EAC /* WVRPlayerUITests */,
+				32F099DA1F60DD7A00264EAC /* WVRPlayerUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32F099B51F60DD7A00264EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F099CA1F60DD7A00264EAC /* LaunchScreen.storyboard in Resources */,
+				32F099C71F60DD7A00264EAC /* Assets.xcassets in Resources */,
+				32F099C51F60DD7A00264EAC /* Main.storyboard in Resources */,
+				32F09A191F60DDB800264EAC /* WVRLiveInfoAlertView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F099CE1F60DD7A00264EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F099D91F60DD7A00264EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C4C90F2AAAAF5A884EC595B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WVRPlayerUI/Pods-WVRPlayerUI-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+				"${PODS_ROOT}/WVRUtil/WVRUtil/Classes/nation.db",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/Base/WVRBaseEmptyView.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/Base/WVRBaseErrorView.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/Base/WVRBaseNullView.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/SQView/SQEmbedHorCollectionCell/SQEmbedHorCollectionCell.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/SQView/SQNavTitleView/SQNavTitleView.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/SQView/SQNextStepCell.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/SQView/SQSegmentView/SQSegmentView.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/SQView/SQTFInputCell.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/WVRDeleteFooterView/WVRDeleteFooterView.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/WVRPageView/WVRPageView.xib",
+				"${PODS_ROOT}/WVRWidget/WVRWidget/Core/WVRSQDownView/WVRSQDownView.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WVRPlayerUI/Pods-WVRPlayerUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9D8A49C4B77E8C2C51BC03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WVRPlayerUI/Pods-WVRPlayerUI-frameworks.sh",
+				"${PODS_ROOT}/WVRImage/WVRImage/Classes/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WVRPlayerUI/Pods-WVRPlayerUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE633666B2C7A695AE884FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WVRPlayerUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F099B31F60DD7A00264EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F09A201F60DDB800264EAC /* WVRPlayerView.m in Sources */,
+				32F09A1C1F60DDB800264EAC /* WVRLiveTitleView.m in Sources */,
+				32F09A1E1F60DDB800264EAC /* WVRPlayerLoadingView.m in Sources */,
+				32CC26601F70B3C0003FDBC4 /* WVRPlayerUIEvent.m in Sources */,
+				32F09A1A1F60DDB800264EAC /* WVRLiveRemindChargeView.m in Sources */,
+				32F099C21F60DD7A00264EAC /* ViewController.m in Sources */,
+				32F09A211F60DDB800264EAC /* WVRPlayerViewLive.m in Sources */,
+				32F099BF1F60DD7A00264EAC /* AppDelegate.m in Sources */,
+				32F099BC1F60DD7A00264EAC /* main.m in Sources */,
+				32F09A181F60DDB800264EAC /* WVRLiveInfoAlertView.m in Sources */,
+				32F09A221F60DDB800264EAC /* WVRSlider.m in Sources */,
+				32F09A141F60DDB800264EAC /* WVRCameraChangeButton.m in Sources */,
+				32F09A1D1F60DDB800264EAC /* WVRLotteryBoxView.m in Sources */,
+				32CC26631F70B430003FDBC4 /* WVRPlayerUIEventCallBack.m in Sources */,
+				32F09A151F60DDB800264EAC /* WVRCameraStandTipView.m in Sources */,
+				32F09A131F60DDB800264EAC /* WVRBlurImageView.m in Sources */,
+				32F09A1F1F60DDB800264EAC /* WVRPlayerStartView.m in Sources */,
+				32F09A1B1F60DDB800264EAC /* WVRLiveBottomToolView.m in Sources */,
+				32F09A171F60DDB800264EAC /* WVRLiveAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F099CC1F60DD7A00264EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F099D51F60DD7A00264EAC /* WVRPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F099D71F60DD7A00264EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F099E01F60DD7A00264EAC /* WVRPlayerUIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32F099D21F60DD7A00264EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F099B61F60DD7A00264EAC /* WVRPlayerUI */;
+			targetProxy = 32F099D11F60DD7A00264EAC /* PBXContainerItemProxy */;
+		};
+		32F099DD1F60DD7A00264EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F099B61F60DD7A00264EAC /* WVRPlayerUI */;
+			targetProxy = 32F099DC1F60DD7A00264EAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32F099C31F60DD7A00264EAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F099C41F60DD7A00264EAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32F099C81F60DD7A00264EAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F099C91F60DD7A00264EAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32F099E21F60DD7A00264EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32F099E31F60DD7A00264EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32F099E51F60DD7A00264EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B725E519CC09CFD1FA755B1 /* Pods-WVRPlayerUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WVRPlayerUI/Classes/WVRPlayerUIHeader.h;
+				INFOPLIST_FILE = WVRPlayerUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRPlayerUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32F099E61F60DD7A00264EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59096A422D521854CFACAEDB /* Pods-WVRPlayerUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WVRPlayerUI/Classes/WVRPlayerUIHeader.h;
+				INFOPLIST_FILE = WVRPlayerUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRPlayerUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32F099E81F60DD7A00264EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WVRPlayerUI.app/WVRPlayerUI";
+			};
+			name = Debug;
+		};
+		32F099E91F60DD7A00264EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WVRPlayerUI.app/WVRPlayerUI";
+			};
+			name = Release;
+		};
+		32F099EB1F60DD7A00264EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRPlayerUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRPlayerUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WVRPlayerUI;
+			};
+			name = Debug;
+		};
+		32F099EC1F60DD7A00264EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRPlayerUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRPlayerUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WVRPlayerUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32F099B21F60DD7A00264EAC /* Build configuration list for PBXProject "WVRPlayerUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F099E21F60DD7A00264EAC /* Debug */,
+				32F099E31F60DD7A00264EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F099E41F60DD7A00264EAC /* Build configuration list for PBXNativeTarget "WVRPlayerUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F099E51F60DD7A00264EAC /* Debug */,
+				32F099E61F60DD7A00264EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F099E71F60DD7A00264EAC /* Build configuration list for PBXNativeTarget "WVRPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F099E81F60DD7A00264EAC /* Debug */,
+				32F099E91F60DD7A00264EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F099EA1F60DD7A00264EAC /* Build configuration list for PBXNativeTarget "WVRPlayerUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F099EB1F60DD7A00264EAC /* Debug */,
+				32F099EC1F60DD7A00264EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32F099AF1F60DD7A00264EAC /* Project object */;
+}
