@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PortalIosMidwareMidware"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ios-midware-midware"
 
   # This description is used to generate tags and improve search results.
@@ -139,6 +139,22 @@ Pod::Spec.new do |s|
     cur.dependency 'PortalIosLibrary/WVRImage'
     cur.dependency 'YYText'
     cur.requires_arc = true
+  end
+
+  s.subspec 'WVRHybrid' do |cur|
+    
+    
+  
+    cur.source_files = ['WVRHybrid/WVRHybrid/Classes/**/*.{h,m}']
+
+    cur.dependency 'PortalIosLibrary/WVRAppContext'
+    cur.dependency 'PortalIosMidware/WVRUIFrame'
+    cur.dependency 'PortalIosLibrary/WVRUtil'
+    cur.dependency 'PortalIosMidwareMidware/WVRWidget'
+    cur.dependency 'YYModel'
+    cur.requires_arc = true
+
+    cur.framework = 'UIKit', 'Foundation'
   end
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
